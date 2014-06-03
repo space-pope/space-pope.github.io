@@ -12,8 +12,6 @@ First, let me start off by saying that I appreciate the hard work so many people
 
 OK, now that that's out of the way...
 
-%~%
-
 ## Ember (is a word for something that can burn you)
 
 So I've decided to use [Ember][Ember] for my latest (OK, first _real_) web project. I'm not a huge fan of relying on naming conventions for functionality, but Ember's at least make sense most of the time, and so far the framework looks like a decent way to enforce (or at least encourage) some separation of concerns in the front end world.
