@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            '&lt;Rant/&gt;'
+tagline:         'Whatever; I write what I want.'
+description:     'Coding tips, learned the hard way.'
+url:              http://space-pope.github.io
+
+author:
+  name:           'Josh'
+  url:            
+
+paginate:         5
+
+excerpt_separator: "%~%"
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/space-pope/space-pope.github.io
+  
+hydeUrl:          http://hyde.getpoole.com/
+
+# variables
+lcb: "{"
+rcb: "}"
