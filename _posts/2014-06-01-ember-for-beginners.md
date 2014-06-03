@@ -34,7 +34,7 @@ Notice the {%raw%}{{outlet}}{%endraw%} tag (or "helper"). That's where your dyna
 
 The `index` template (again, unless you've changed names/routes, but you're a beginner like me, so you're not doing things like that . . . right?) is the first template/view that will be rendered into your {%raw%}{{outlet}}{%endraw%} when a visitor hits `/`, your root URL. An example (OK, a really _bad_ example) of an `index` template might be:
 <script src="https://gist.github.com/space-pope/3af8fa82dd82df8614fd.js?file=index.hbs"></script>
-You, um, probably want more than this here, but you sort of get the idea. You don't need an {%raw}{{outlet}}{%endraw%} helper here unless you're planning on having subroutes that you'll want to render _inside_ this template.
+You, um, probably want more than this here, but you sort of get the idea. You don't need an {%raw%}{{outlet}}{%endraw%} helper here unless you're planning on having subroutes that you'll want to render _inside_ this template.
 
 ### Ember gotcha #2: Array controllers and templates
 
