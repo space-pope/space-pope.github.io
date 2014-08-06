@@ -20,13 +20,13 @@ I read a decent bit of the documentation (which seems a bit incomplete, but kudo
 
 ### Ember gotcha #1: `application` vs. `index`
 
-This one is at least partially covered in the intro tutorial and documentation, but I got lost somewhere between not naming my app "App" and moving templates into their own files instead of making my eyes bleed with a 2,000-line HTML file, and I got tripped up with little detail.
+This one is at least partially covered in the intro tutorial and documentation, but I got lost somewhere between not naming my app "App" and moving templates into their own files instead of making my eyes bleed with a 2,000-line HTML file, and I got tripped up with this little detail.
 
 Unless you're changing the names of the default `ApplicationRoute`, `IndexRoute`, etc., you'll want two templates to get yourself up and running:
 
 #### **`application`**
 
-The `application` template is your scaffolding. You can put it in your main HTML file inside a `<script type="text/x-handlebars"></script>` block (note the lack of a `data-template-name` attribute), or you can put it in an `application.hbs` (or whatever your extension of choice). A simple example of the `application` template might look like this:
+The `application` template is your scaffolding. You can put it in your main HTML file inside a `<script type="text/x-handlebars"></script>` block (note the lack of a `data-template-name` attribute), or you can put it in an `application.hbs` (or whatever your extension of choice for Handlebars templates might be). A simple example of the `application` template might look like this:
   <script src="https://gist.github.com/space-pope/3af8fa82dd82df8614fd.js?file=application.hbs"></script>
 Notice the {%raw%}{{outlet}}{%endraw%} tag (or "helper"). That's where your dynamic content will be rendered—dynamic content that will first come from . . .
 
